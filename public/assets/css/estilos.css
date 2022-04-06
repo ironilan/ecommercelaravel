@@ -1,0 +1,203 @@
+.navbar-brand img{
+	position: absolute;
+    width: 160px;
+    top: 0;
+    z-index: 10;
+}
+
+.top-header-area.white-color{
+	background-color:  #FE0000;
+	background-image: url(../../imagenes/huella.png);
+  	background-repeat: repeat;
+  	background-size: 36px;
+}
+
+.page-title-area{
+	background-image: url(../../imagenes/bg.png);
+}
+
+.top-header-area .search-box form button{
+	background-color: #AF0000;
+}
+
+.top-header-area .search-box form button:hover{
+	background-color: #FFD100;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, a{
+	color:  #AF0000;
+}
+
+.navbar-area.white-color .patoi-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area.white-color .patoi-nav .navbar .navbar-nav .nav-item a.active{
+	color: #FFD100;
+}
+
+.navbar-area.white-color .patoi-nav .navbar .navbar-nav .nav-item:hover a, .navbar-area.white-color .patoi-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover{
+	color: #FFD100;
+}
+
+.top-header-area.white-color ul li a:hover, .navbar-area.white-color .patoi-nav .navbar .others-option ul li a:hover{
+	color: #FFD100;
+}
+
+.navbar-area.white-color .patoi-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active{
+	color: #FFD100;
+}
+
+
+.is-sticky .patoi-nav .container .navbar .navbar-brand img{
+	width: 96px;
+    top: 0;
+}
+
+.banner-content .content .default-btn{
+	background-color:  #AF0000;
+}
+
+.single-products-box .image .products-button li a:hover{
+	background-color:  #AF0000;
+}
+
+
+.single-footer-widget .logo img{
+	width: 150px;
+}
+
+
+.patoi-nav .navbar .navbar-nav .nav-item a{
+	font-size: 19px!important;
+}
+
+
+.single-partners-box a img{
+	width: 100%;
+}
+
+
+.cr{
+	color: red;
+}
+
+
+.btnActualizar{
+	background-color: #AF0000;
+	border-radius: 10px;
+	padding: .8rem 3rem;
+	color: #fff;
+	border: 1px solid #AF0000;
+}
+
+.btnActualizar:hover{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: .8rem 3rem;
+	color: #AF0000;
+	border: 1px solid #AF0000;
+}
+
+
+.go-top{
+	color: #AF0000;
+}
+
+.widget-area .widget_price_filter .collection_filter_by_price .irs--flat .irs-from::after, .widget-area .widget_price_filter .collection_filter_by_price .irs--flat .irs-to::after, .widget-area .widget_price_filter .collection_filter_by_price .irs--flat .irs-single::after{
+	content: 'S/.'!important;
+}
+
+.widget-area .widget_price_filter .collection_filter_by_price .irs--flat .irs-min, .widget-area .widget_price_filter .collection_filter_by_price .irs--flat .irs-max{
+	padding: 1px 4px 1px 15.5px!important;
+}
+
+.widget-area .widget_price_filter .collection_filter_by_price .irs--flat .irs-min::before, .widget-area .widget_price_filter .collection_filter_by_price .irs--flat .irs-max::before{
+	content: 'S/. ';
+}
+
+.widget-area .widget_price_filter .collection_filter_by_price .irs--flat .irs-from, .widget-area .widget_price_filter .collection_filter_by_price .irs--flat .irs-to, .widget-area .widget_price_filter .collection_filter_by_price .irs--flat .irs-single{
+	padding: 1px 5px 1px 17.5px!important;
+}
+
+
+.page-link{
+	border-radius: 50%!important;
+	margin: 0 10px;
+    font-size: 32px;
+    height: 38px;
+    width: 38px;
+    line-height: 0;
+    padding: 19px 13px 12px 14px!important;
+    box-shadow: 0 5px 15px 0 rgb(107 124 147 / 15%), 0 2px 4px 0 rgb(107 124 147 / 20%), inset 0 -2px 0 0 #c2cfde;
+    background: linear-gradient(180deg, #ffffff 0%, #eaeef3 100%);
+    border: none;
+}
+
+.page-item a.page-link{
+	font-size: 14px;
+	font-weight: 700;
+	color: #000;
+}
+
+.cn{
+	color: #000;
+}
+
+
+.page-item.active .page-link{
+	color: #259cd8!important;
+	border-color: transparent;
+	font-size: 14px;
+}
+
+
+.page-item:first-child .page-link{
+	font-size: 17px;
+    padding: 16px 12px 16px 16px!important;
+}
+
+
+.page-item:last-child .page-link{
+	font-size: 17px;
+    padding: 15px 12px 12px 15px!important;
+}
+
+
+
+.productsQuickView .modal_width{
+	max-width: 23rem!important;
+}
+
+
+.items_cart{
+	position: absolute;
+    top: 12px;
+    left: 13px;
+    background: yellow;
+    color: red;
+    padding: 3px 5px;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+
+@media (max-width: 990px) {
+	.logo a img{
+		width: 90px!important;
+	    /*position: absolute;*/
+	    top: -15px;
+	}
+
+	
+}
+
+@media (max-width: 800px) {
+	.logo a img{
+		width: 90px!important;
+	    position: absolute;
+	    top: -15px;
+	}
+
+	.navbar-area.white-color{
+		height: 93px;
+	}
+
+	
+}
